@@ -20,30 +20,30 @@
     ></script>
   </head>
   <body>
-    <!-- left section -->
+    <!-- main container -->
     <section class="container-fluid">
-      <div class="row">
-        <div id="left-section" class="col-lg-6 col-md-6 col-sm-6">
-          <div id="left-section-content">
-            <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="row justify-content-center">
+        <!-- left section -->
+        <div id="left-section" class="col-lg-4 col-md-4 pt-5">
+          <div>
+            <div>
               <img
                 id="main-image"
                 src="image/facebook.png"
                 alt="Facebook logo"
               />
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-11">
               <h2>
-                Connect with friends and the world <br />
-                around you on Facebook.
+                Connect with friends and the world around you on Facebook.
               </h2>
             </div>
           </div>
         </div>
         <!-- right section -->
-        <div class="login-section col-lg-6 col-md-6 col-sm-6">
-          <form id="login-form" class="col-lg-8 col-md-8 col-sm-8">
-            <div class="row g-3 col-lg-11 col-md-11 col-sm-11" id="login-input">
+        <div class="login-section col-lg-4 col-md-4">
+          <form id="login-form" class="col-10">
+            <div class="row g-3 col-11" id="login-input">
               <input
                 type="text"
                 class="form-control input-form"
@@ -73,7 +73,7 @@
               Create new account
             </button>
           </form>
-          <div class="col-lg-9" id="create-section">
+          <div class="col-9" id="create-section">
             <p>
               <a href="#" id="creating-link">Create a Page</a> for a celebrity,
               brand or business.
@@ -83,9 +83,9 @@
       </div>
     </section>
     <!-- footer section -->
-    <footer>
-      <div class="mother-divs">
-        <div class="footer-divs">
+    <footer class="bg-white">
+      <div class="row justify-content-center pt-4">
+        <div class="col-8">
           <ul class="list-inline">
             <li class="list-inline-item">
               <a class="nav-link disabled" aria-disabled="true" href="#">
@@ -124,10 +124,10 @@
             </li>
           </ul>
         </div>
-        <div class="footer-divs">
+        <div class="col-8">
           <hr />
         </div>
-        <div class="footer-divs">
+        <div class="col-8">
           <ul class="list-inline">
             <li class="list-inline-item">
               <a class="nav-link" href="#">Sign Up</a>
@@ -146,7 +146,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-divs">Meta &copy 2023</div>
+        <div class="col-8">Meta &copy 2023</div>
       </div>
     </footer>
   </body>

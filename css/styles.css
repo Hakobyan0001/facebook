@@ -10,9 +10,6 @@ h2 {
   font-weight: normal;
   line-height: 32px;
 }
-hr {
-  margin-bottom: 0;
-}
 a {
   text-decoration: none;
 }
@@ -25,21 +22,15 @@ a:hover {
 .container-fluid {
   background-color: #f0f2f5;
   font-family: inherit;
-  height: 45rem;
-  padding: 9.4rem;
+  padding: 12% 0%;
 }
 /* left section */
 
-#left-section {
-  text-align: left;
-}
-#left-section-content {
-  margin: 3rem 0 0 6rem;
-}
 #main-image {
   width: 50%;
   margin-bottom: 1rem;
 }
+
 /* right section */
 .login-section {
   text-align: center;
@@ -104,10 +95,14 @@ footer {
   height: 150px;
   color: #8a8d91;
 }
-.mother-divs {
-  margin: 2rem 16rem;
-  width: 980px;
+footer hr {
+  margin-top: 0;
 }
-.footer-divs {
-  margin: auto;
-}
+
+@media screen and (max-width: 1400px) {
+  #left-section {
+    width: 470px;
+  }
+  .login-section {
+    width: 500px;
+  }
